@@ -1,1 +1,754 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
+\f0\fs24 \cf0 <!DOCTYPE html>\
+\
+<html lang="en">\
+<head>\
+<meta charset="UTF-8">\
+<meta name="viewport" content="width=device-width, initial-scale=1.0">\
+<title>TechVaultPro\'99 - Premium Electronics Up to 95% OFF!</title>\
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">\
+<style>\
+  :root \{\
+    --red: #e63946;\
+    --dark: #1a1a2e;\
+    --gold: #f4a836;\
+    --green: #2ecc71;\
+    --blue: #0066ff;\
+    --light: #f8f9fa;\
+  \}\
+\
+- \{ margin: 0; padding: 0; box-sizing: border-box; \}\
+\
+body \{\
+font-family: \'91Open Sans\'92, sans-serif;\
+background: var(\'96light);\
+color: #333;\
+overflow-x: hidden;\
+\}\
+\
+/* === SCAM BANNER === */\
+.top-ticker \{\
+background: var(\'96red);\
+color: white;\
+padding: 8px 0;\
+overflow: hidden;\
+font-size: 13px;\
+font-weight: 700;\
+letter-spacing: 0.5px;\
+\}\
+.top-ticker .scroll \{\
+display: inline-block;\
+white-space: nowrap;\
+animation: scroll 25s linear infinite;\
+\}\
+@keyframes scroll \{\
+0% \{ transform: translateX(100vw); \}\
+100% \{ transform: translateX(-200%); \}\
+\}\
+\
+/* === HEADER === */\
+header \{\
+background: var(\'96dark);\
+padding: 12px 24px;\
+display: flex;\
+align-items: center;\
+justify-content: space-between;\
+flex-wrap: wrap;\
+gap: 12px;\
+\}\
+.logo \{\
+font-family: \'91Bebas Neue\'92, sans-serif;\
+font-size: 32px;\
+color: white;\
+letter-spacing: 2px;\
+\}\
+.logo span \{ color: var(\'96gold); \}\
+.header-trust \{\
+display: flex;\
+gap: 16px;\
+align-items: center;\
+flex-wrap: wrap;\
+\}\
+.trust-pill \{\
+background: rgba(255,255,255,0.1);\
+border: 1px solid rgba(255,255,255,0.15);\
+color: #ccc;\
+padding: 4px 12px;\
+border-radius: 20px;\
+font-size: 11px;\
+display: flex;\
+align-items: center;\
+gap: 5px;\
+\}\
+.trust-pill .dot \{ width: 6px; height: 6px; background: var(\'96green); border-radius: 50%; \}\
+\
+/* === URGENCY BAR === */\
+.urgency-bar \{\
+background: linear-gradient(90deg, #ff4444, #cc0000);\
+color: white;\
+text-align: center;\
+padding: 14px 20px;\
+font-weight: 700;\
+font-size: 15px;\
+letter-spacing: 0.5px;\
+position: relative;\
+\}\
+.urgency-bar .flash \{\
+animation: flash 1s ease-in-out infinite;\
+display: inline-block;\
+\}\
+@keyframes flash \{\
+0%, 100% \{ opacity: 1; \}\
+50% \{ opacity: 0.3; \}\
+\}\
+\
+/* === COUNTDOWN === */\
+.countdown-section \{\
+background: var(\'96dark);\
+color: white;\
+text-align: center;\
+padding: 28px 20px;\
+\}\
+.countdown-label \{\
+font-size: 13px;\
+text-transform: uppercase;\
+letter-spacing: 3px;\
+color: var(\'96gold);\
+margin-bottom: 12px;\
+\}\
+.countdown \{\
+display: flex;\
+justify-content: center;\
+gap: 12px;\
+\}\
+.countdown .unit \{\
+background: rgba(255,255,255,0.08);\
+border: 1px solid rgba(255,255,255,0.1);\
+border-radius: 8px;\
+padding: 12px 18px;\
+min-width: 70px;\
+\}\
+.countdown .num \{\
+font-family: \'91Bebas Neue\'92, sans-serif;\
+font-size: 36px;\
+color: var(\'96red);\
+line-height: 1;\
+\}\
+.countdown .lbl \{\
+font-size: 10px;\
+text-transform: uppercase;\
+letter-spacing: 2px;\
+color: #888;\
+margin-top: 4px;\
+\}\
+.live-viewers \{\
+margin-top: 14px;\
+font-size: 13px;\
+color: #aaa;\
+\}\
+.live-viewers .pulse \{\
+display: inline-block;\
+width: 8px; height: 8px;\
+background: var(\'96red);\
+border-radius: 50%;\
+margin-right: 6px;\
+animation: pulse 1.5s infinite;\
+\}\
+@keyframes pulse \{\
+0%, 100% \{ transform: scale(1); opacity: 1; \}\
+50% \{ transform: scale(1.6); opacity: 0.4; \}\
+\}\
+\
+/* === PRODUCTS === */\
+.products-section \{\
+max-width: 1200px;\
+margin: 0 auto;\
+padding: 36px 20px;\
+\}\
+.section-head \{\
+text-align: center;\
+margin-bottom: 32px;\
+\}\
+.section-head h2 \{\
+font-family: \'91Bebas Neue\'92, sans-serif;\
+font-size: 36px;\
+color: var(\'96dark);\
+letter-spacing: 2px;\
+\}\
+.section-head p \{ color: #888; font-size: 14px; margin-top: 4px; \}\
+\
+.product-grid \{\
+display: grid;\
+grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));\
+gap: 20px;\
+\}\
+.product-card \{\
+background: white;\
+border-radius: 12px;\
+overflow: hidden;\
+box-shadow: 0 2px 12px rgba(0,0,0,0.08);\
+position: relative;\
+transition: transform 0.2s;\
+\}\
+.product-card:hover \{ transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.12); \}\
+\
+.badge-row \{\
+position: absolute;\
+top: 10px; left: 10px;\
+display: flex;\
+gap: 6px;\
+z-index: 2;\
+\}\
+.badge \{\
+padding: 3px 10px;\
+border-radius: 4px;\
+font-size: 11px;\
+font-weight: 700;\
+color: white;\
+\}\
+.badge.sale \{ background: var(\'96red); \}\
+.badge.hot \{ background: var(\'96gold); color: var(\'96dark); \}\
+.badge.limited \{ background: #333; \}\
+\
+.product-img \{\
+width: 100%;\
+height: 200px;\
+background: #eee;\
+display: flex;\
+align-items: center;\
+justify-content: center;\
+font-size: 56px;\
+color: #ccc;\
+position: relative;\
+\}\
+.product-img::after \{\
+content: \'91\'92;\
+position: absolute;\
+bottom: 0; left: 0; right: 0;\
+height: 40px;\
+background: linear-gradient(transparent, white);\
+\}\
+\
+.product-info \{ padding: 16px; \}\
+.product-name \{\
+font-weight: 700;\
+font-size: 15px;\
+margin-bottom: 6px;\
+line-height: 1.3;\
+\}\
+.price-row \{\
+display: flex;\
+align-items: baseline;\
+gap: 8px;\
+margin-bottom: 6px;\
+\}\
+.price-now \{\
+font-family: \'91Bebas Neue\'92, sans-serif;\
+font-size: 28px;\
+color: var(\'96red);\
+\}\
+.price-was \{\
+font-size: 14px;\
+color: #aaa;\
+text-decoration: line-through;\
+\}\
+.discount-tag \{\
+font-size: 11px;\
+font-weight: 700;\
+color: var(\'96green);\
+background: #e8faf0;\
+padding: 2px 8px;\
+border-radius: 4px;\
+\}\
+\
+.stock-bar-wrap \{\
+margin: 8px 0;\
+\}\
+.stock-text \{\
+font-size: 11px;\
+color: var(\'96red);\
+font-weight: 700;\
+margin-bottom: 4px;\
+\}\
+.stock-bar \{\
+height: 6px;\
+background: #eee;\
+border-radius: 3px;\
+overflow: hidden;\
+\}\
+.stock-bar .fill \{\
+height: 100%;\
+background: linear-gradient(90deg, var(\'96red), #ff6b6b);\
+border-radius: 3px;\
+animation: stockPulse 2s infinite;\
+\}\
+@keyframes stockPulse \{\
+0%, 100% \{ opacity: 1; \}\
+50% \{ opacity: 0.6; \}\
+\}\
+\
+.stars \{\
+color: var(\'96gold);\
+font-size: 14px;\
+margin-bottom: 4px;\
+\}\
+.review-count \{ font-size: 11px; color: #888; \}\
+\
+.buy-btn \{\
+width: 100%;\
+padding: 12px;\
+background: var(\'96green);\
+color: white;\
+border: none;\
+border-radius: 8px;\
+font-weight: 700;\
+font-size: 14px;\
+cursor: pointer;\
+margin-top: 10px;\
+transition: background 0.2s;\
+text-transform: uppercase;\
+letter-spacing: 1px;\
+\}\
+.buy-btn:hover \{ background: #27ae60; \}\
+\
+.orders-today \{\
+text-align: center;\
+font-size: 11px;\
+color: #888;\
+margin-top: 8px;\
+\}\
+.orders-today strong \{ color: var(\'96red); \}\
+\
+/* === FAKE REVIEWS === */\
+.reviews-section \{\
+background: white;\
+padding: 40px 20px;\
+\}\
+.reviews-grid \{\
+max-width: 1200px;\
+margin: 0 auto;\
+display: grid;\
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\
+gap: 20px;\
+\}\
+.review-card \{\
+background: var(\'96light);\
+padding: 20px;\
+border-radius: 10px;\
+border: 1px solid #eee;\
+\}\
+.review-header \{\
+display: flex;\
+align-items: center;\
+gap: 10px;\
+margin-bottom: 10px;\
+\}\
+.review-avatar \{\
+width: 40px; height: 40px;\
+border-radius: 50%;\
+background: linear-gradient(135deg, #667eea, #764ba2);\
+display: flex;\
+align-items: center;\
+justify-content: center;\
+color: white;\
+font-weight: 700;\
+font-size: 16px;\
+\}\
+.review-name \{ font-weight: 700; font-size: 14px; \}\
+.review-verified \{\
+font-size: 11px;\
+color: var(\'96green);\
+display: flex;\
+align-items: center;\
+gap: 3px;\
+\}\
+.review-text \{\
+font-size: 13px;\
+line-height: 1.6;\
+color: #555;\
+\}\
+.review-date \{ font-size: 11px; color: #aaa; margin-top: 8px; \}\
+\
+/* === TRUST SECTION === */\
+.trust-section \{\
+max-width: 1200px;\
+margin: 0 auto;\
+padding: 40px 20px;\
+display: grid;\
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));\
+gap: 20px;\
+text-align: center;\
+\}\
+.trust-item \{\
+padding: 24px 16px;\
+background: white;\
+border-radius: 10px;\
+box-shadow: 0 1px 6px rgba(0,0,0,0.06);\
+\}\
+.trust-icon \{ font-size: 32px; margin-bottom: 8px; \}\
+.trust-title \{ font-weight: 700; font-size: 14px; margin-bottom: 4px; \}\
+.trust-desc \{ font-size: 12px; color: #888; \}\
+\
+/* === POPUP === */\
+.popup-toast \{\
+position: fixed;\
+bottom: 20px; left: 20px;\
+background: white;\
+border-radius: 10px;\
+box-shadow: 0 4px 24px rgba(0,0,0,0.15);\
+padding: 14px 18px;\
+display: flex;\
+align-items: center;\
+gap: 12px;\
+z-index: 999;\
+max-width: 320px;\
+transform: translateY(120%);\
+animation: slideUp 0.4s forwards;\
+border-left: 4px solid var(\'96green);\
+\}\
+.popup-toast.hide \{ animation: slideDown 0.4s forwards; \}\
+@keyframes slideUp \{ to \{ transform: translateY(0); \} \}\
+@keyframes slideDown \{ to \{ transform: translateY(200%); \} \}\
+.popup-icon \{ font-size: 28px; \}\
+.popup-text \{ font-size: 12px; line-height: 1.4; \}\
+.popup-text strong \{ display: block; font-size: 13px; color: var(\'96dark); \}\
+.popup-text .time \{ color: #aaa; font-size: 11px; \}\
+\
+/* === FOOTER === */\
+footer \{\
+background: var(\'96dark);\
+color: #666;\
+padding: 30px 20px;\
+text-align: center;\
+font-size: 12px;\
+line-height: 2;\
+\}\
+footer a \{ color: #888; text-decoration: none; \}\
+footer .footer-badges \{\
+display: flex;\
+justify-content: center;\
+gap: 16px;\
+margin: 16px 0;\
+flex-wrap: wrap;\
+\}\
+footer .f-badge \{\
+background: rgba(255,255,255,0.05);\
+border: 1px solid rgba(255,255,255,0.08);\
+padding: 6px 14px;\
+border-radius: 6px;\
+font-size: 11px;\
+color: #777;\
+display: flex;\
+align-items: center;\
+gap: 6px;\
+\}\
+\
+/* === FLOATING BANNER === */\
+.float-cta \{\
+position: fixed;\
+bottom: 0; left: 0; right: 0;\
+background: linear-gradient(90deg, #e63946, #cc0000);\
+color: white;\
+text-align: center;\
+padding: 12px;\
+font-weight: 700;\
+font-size: 14px;\
+z-index: 998;\
+display: flex;\
+align-items: center;\
+justify-content: center;\
+gap: 10px;\
+\}\
+.float-cta .flash \{ animation: flash 0.8s infinite; \}\
+\
+/* === DEMO WATERMARK === */\
+.demo-watermark \{\
+position: fixed;\
+top: 0; left: 0; right: 0; bottom: 0;\
+pointer-events: none;\
+z-index: 9999;\
+display: flex;\
+align-items: center;\
+justify-content: center;\
+\}\
+.demo-watermark span \{\
+font-family: \'91Bebas Neue\'92, sans-serif;\
+font-size: 120px;\
+color: rgba(230, 57, 70, 0.06);\
+transform: rotate(-30deg);\
+letter-spacing: 20px;\
+white-space: nowrap;\
+user-select: none;\
+\}\
+\
+@media (max-width: 600px) \{\
+.logo \{ font-size: 24px; \}\
+.countdown .unit \{ min-width: 55px; padding: 8px 10px; \}\
+.countdown .num \{ font-size: 28px; \}\
+.demo-watermark span \{ font-size: 60px; letter-spacing: 10px; \}\
+\}\
+</style>\
+\
+</head>\
+<body>\
+\
+<!-- DEMO WATERMARK -->\
+\
+<div class="demo-watermark"><span>DEMO SCAM SITE</span></div>\
+\
+<!-- SCROLLING TICKER -->\
+\
+<div class="top-ticker">\
+  <div class="scroll">\
+    \uc0\u55357 \u56613  WAREHOUSE LIQUIDATION \'97 EVERYTHING MUST GO \'97 UP TO 95% OFF ALL ELECTRONICS \'97 FREE SHIPPING WORLDWIDE \'97 TODAY ONLY \'97 LIMITED QUANTITIES \'97 ONCE IT'S GONE, IT'S GONE \u55357 \u56613  &nbsp;&nbsp;&nbsp;&nbsp;\
+    \uc0\u55357 \u56613  WAREHOUSE LIQUIDATION \'97 EVERYTHING MUST GO \'97 UP TO 95% OFF ALL ELECTRONICS \'97 FREE SHIPPING WORLDWIDE \'97 TODAY ONLY \'97 LIMITED QUANTITIES \'97 ONCE IT'S GONE, IT'S GONE \u55357 \u56613 \
+  </div>\
+</div>\
+\
+<!-- HEADER -->\
+\
+<header>\
+  <div class="logo">TECH<span>VAULT</span>PRO\'99</div>\
+  <div class="header-trust">\
+    <div class="trust-pill"><div class="dot"></div> SSL Secured</div>\
+    <div class="trust-pill">\uc0\u55357 \u57057 \u65039  Buyer Protected</div>\
+    <div class="trust-pill">\uc0\u11088  4.9/5 TrustScore</div>\
+  </div>\
+</header>\
+\
+<!-- URGENCY BAR -->\
+\
+<div class="urgency-bar">\
+  <span class="flash">\uc0\u9889 </span> FLASH SALE ENDING SOON \'97 Prices go back up at midnight! <span class="flash">\u9889 </span>\
+</div>\
+\
+<!-- COUNTDOWN -->\
+\
+<div class="countdown-section">\
+  <div class="countdown-label">\uc0\u9200  Sale Ends In</div>\
+  <div class="countdown" id="countdown">\
+    <div class="unit"><div class="num" id="hrs">02</div><div class="lbl">Hours</div></div>\
+    <div class="unit"><div class="num" id="min">47</div><div class="lbl">Minutes</div></div>\
+    <div class="unit"><div class="num" id="sec">33</div><div class="lbl">Seconds</div></div>\
+  </div>\
+  <div class="live-viewers"><span class="pulse"></span><span id="viewers">2,847</span> people viewing this sale right now</div>\
+</div>\
+\
+<!-- PRODUCTS -->\
+\
+<div class="products-section">\
+  <div class="section-head">\
+    <h2>\uc0\u55357 \u56613  TODAY'S MEGA DEALS \'97 UP TO 95% OFF</h2>\
+    <p>Premium electronics at unbeatable prices. While stocks last!</p>\
+  </div>\
+\
+  <div class="product-grid" id="productGrid"></div>\
+</div>\
+\
+<!-- REVIEWS -->\
+\
+<div class="reviews-section">\
+  <div class="section-head" style="max-width:1200px;margin:0 auto 24px;">\
+    <h2>\uc0\u11088  WHAT OUR CUSTOMERS SAY</h2>\
+    <p>Over 50,000+ happy customers worldwide</p>\
+  </div>\
+  <div class="reviews-grid" id="reviewsGrid"></div>\
+</div>\
+\
+<!-- TRUST BADGES -->\
+\
+<div class="trust-section" id="trustSection"></div>\
+\
+<!-- FOOTER -->\
+\
+<footer>\
+  <div class="footer-badges">\
+    <div class="f-badge">\uc0\u55357 \u56594  256-bit SSL</div>\
+    <div class="f-badge">\uc0\u55357 \u56499  Secure Checkout</div>\
+    <div class="f-badge">\uc0\u55356 \u57101  Worldwide Delivery</div>\
+    <div class="f-badge">\uc0\u9989  Money-Back Gaurantee</div>\
+  </div>\
+  <p>\'a9 2024 TechVaultPro\'99 \'97 All Rights Reserved</p>\
+  <p>\
+    <a href="#">Privacy Policy</a> \'b7 <a href="#">Terms & Conditions</a> \'b7 <a href="#">Contact Us</a> \'b7 <a href="#">Track Order</a>\
+  </p>\
+  <p style="margin-top:8px;">Registered Office: 742 Innovation Blvd, Suite 19, Dover, DE 19901</p>\
+  <p style="color:#444;margin-top:12px;font-size:10px;">\
+    TechVaultPro is not affiliated with Apple, Samsung, Sony, Bose, or any other brand listed.\
+    All trademarks belong to their respective owners.\
+  </p>\
+</footer>\
+\
+<!-- FLOATING CTA -->\
+\
+<div class="float-cta">\
+  <span class="flash">\uc0\u55357 \u56613 </span>\
+  <span>HURRY! Sale ends in <span id="floatTimer">02:47:33</span> \'97 Don't miss out!</span>\
+  <span class="flash">\uc0\u55357 \u56613 </span>\
+</div>\
+\
+<!-- PURCHASE POPUP TOAST -->\
+\
+<div class="popup-toast" id="popup" style="display:none;"></div>\
+\
+<script>\
+  // === PRODUCTS DATA (scam-style) ===\
+  const products = [\
+    \{ name: 'Apple MacBook Pro 16" M3 Max \'97 1TB', emoji: '\uc0\u55357 \u56507 ', was: 3499, now: 189, stock: 3, reviews: 12847, orders: 1847 \},\
+    \{ name: 'Sony WH-1000XM5 Wireless Headphones', emoji: '\uc0\u55356 \u57255 ', was: 399, now: 29, stock: 7, reviews: 8432, orders: 943 \},\
+    \{ name: 'Samsung Galaxy S24 Ultra 512GB', emoji: '\uc0\u55357 \u56561 ', was: 1419, now: 79, stock: 2, reviews: 15290, orders: 2341 \},\
+    \{ name: 'iPad Pro 12.9" M2 \'97 256GB WiFi+Cell', emoji: '\uc0\u55357 \u56562 ', was: 1299, now: 69, stock: 5, reviews: 9876, orders: 1102 \},\
+    \{ name: 'Sony A7 IV Full-Frame Camera Body', emoji: '\uc0\u55357 \u56567 ', was: 2498, now: 149, stock: 1, reviews: 4521, orders: 387 \},\
+    \{ name: 'Bose QuietComfort Ultra Earbuds', emoji: '\uc0\u55356 \u57269 ', was: 299, now: 19, stock: 8, reviews: 6234, orders: 1543 \},\
+    \{ name: 'Apple Watch Ultra 2 \'97 Titanium 49mm', emoji: '\uc0\u8986 ', was: 799, now: 49, stock: 4, reviews: 11234, orders: 892 \},\
+    \{ name: 'DJI Mini 4 Pro Fly More Combo', emoji: '\uc0\u55357 \u56961 ', was: 1099, now: 89, stock: 2, reviews: 3456, orders: 456 \},\
+  ];\
+\
+  const grid = document.getElementById('productGrid');\
+  products.forEach(p => \{\
+    const pct = Math.round((1 - p.now / p.was) * 100);\
+    const stockPct = (p.stock / 50) * 100;\
+    const badges = p.stock <= 2\
+      ? `<span class="badge sale">-$\{pct\}%</span><span class="badge limited">ALMOST GONE</span>`\
+      : `<span class="badge sale">-$\{pct\}%</span><span class="badge hot">\uc0\u55357 \u56613  HOT</span>`;\
+\
+    grid.innerHTML += `\
+      <div class="product-card">\
+        <div class="badge-row">$\{badges\}</div>\
+        <div class="product-img">$\{p.emoji\}</div>\
+        <div class="product-info">\
+          <div class="product-name">$\{p.name\}</div>\
+          <div class="price-row">\
+            <span class="price-now">$$\{p.now\}</span>\
+            <span class="price-was">$$\{p.was.toLocaleString()\}</span>\
+            <span class="discount-tag">SAVE $\{pct\}%</span>\
+          </div>\
+          <div class="stars">\uc0\u9733 \u9733 \u9733 \u9733 \u9733 </div>\
+          <div class="review-count">$\{p.reviews.toLocaleString()\} verified reviews</div>\
+          <div class="stock-bar-wrap">\
+            <div class="stock-text">\uc0\u9888 \u65039  Only $\{p.stock\} left in stock!</div>\
+            <div class="stock-bar"><div class="fill" style="width:$\{stockPct\}%"></div></div>\
+          </div>\
+          <button class="buy-btn">\uc0\u55357 \u57042  BUY NOW \'97 $$\{p.now\}</button>\
+          <div class="orders-today"><strong>$\{p.orders.toLocaleString()\}</strong> ordered in the last 24 hours</div>\
+        </div>\
+      </div>\
+    `;\
+  \});\
+\
+  // === REVIEWS DATA ===\
+  const reviews = [\
+    \{ name: 'Sarah M.', init: 'S', text: "I couldn't beleive it when my MacBook arrived! Thought it was too good to be true but it's 100% legit. Already ordered 3 more for my family!!", date: '2 hours ago' \},\
+    \{ name: 'Jake T.', init: 'J', text: 'AMAZING!!! Got my Samsung for $79 and its brand new sealed box. Fastest shipping ever, arrived in just 2 day. Best website ever!!', date: '45 minutes ago' \},\
+    \{ name: 'Emily R.', init: 'E', text: 'Was skeptical at first but this is the real deal. My AirPods are genuine Apple. Recommending to everyone I know. 10/10 experience!', date: '1 hour ago' \},\
+    \{ name: 'David K.', init: 'D', text: 'just got my sony camera and WOW. retail price $2498 but i got it for $149. this is absolutely unreal. thank you techvaultpro!!', date: '3 hours ago' \},\
+    \{ name: 'Lisa W.', init: 'L', text: 'Ordered 5 iPads for my office. All arrived sealed and brand new. This company is a hidden gem!!! Will order again for sure.', date: '27 minutes ago' \},\
+    \{ name: 'Michael B.', init: 'M', text: 'My wife said im crazy for ordering here but when the watch showed up she was shocked. 100% authentic. Ordered more gifts for christmas!', date: '1 hour ago' \},\
+  ];\
+\
+  const rGrid = document.getElementById('reviewsGrid');\
+  const colors = ['#667eea,#764ba2','#f093fb,#f5576c','#4facfe,#00f2fe','#43e97b,#38f9d7','#fa709a,#fee140','#a18cd1,#fbc2eb'];\
+  reviews.forEach((r, i) => \{\
+    rGrid.innerHTML += `\
+      <div class="review-card">\
+        <div class="review-header">\
+          <div class="review-avatar" style="background:linear-gradient(135deg,$\{colors[i]\})">$\{r.init\}</div>\
+          <div>\
+            <div class="review-name">$\{r.name\}</div>\
+            <div class="review-verified">\uc0\u9989  Verified Purchase</div>\
+          </div>\
+          <div style="margin-left:auto;color:#f4a836;">\uc0\u9733 \u9733 \u9733 \u9733 \u9733 </div>\
+        </div>\
+        <div class="review-text">$\{r.text\}</div>\
+        <div class="review-date">$\{r.date\}</div>\
+      </div>\
+    `;\
+  \});\
+\
+  // === TRUST BADGES ===\
+  const trustItems = [\
+    \{ icon: '\uc0\u55357 \u56594 ', title: 'Bank-Level Security', desc: '256-bit SSL encryption on all transactions' \},\
+    \{ icon: '\uc0\u55357 \u56986 ', title: 'Free Express Shipping', desc: 'Delivered to your door in 2-3 business days' \},\
+    \{ icon: '\uc0\u8617 \u65039 ', title: '30-Day Money Back', desc: 'Full refund gauranteed, no questions asked' \},\
+    \{ icon: '\uc0\u9989 ', title: '100% Authentic', desc: 'All products sourced direct from manufacturers' \},\
+    \{ icon: '\uc0\u55357 \u56542 ', title: '24/7 Live Support', desc: 'Our dedicated team is always here for you' \},\
+    \{ icon: '\uc0\u55356 \u57286 ', title: 'Award Winning', desc: 'Voted #1 Electronics Retailer 2024' \},\
+  ];\
+  const tSection = document.getElementById('trustSection');\
+  trustItems.forEach(t => \{\
+    tSection.innerHTML += `\
+      <div class="trust-item">\
+        <div class="trust-icon">$\{t.icon\}</div>\
+        <div class="trust-title">$\{t.title\}</div>\
+        <div class="trust-desc">$\{t.desc\}</div>\
+      </div>\
+    `;\
+  \});\
+\
+  // === COUNTDOWN TIMER ===\
+  let totalSec = 2 * 3600 + 47 * 60 + 33;\
+  function updateTimer() \{\
+    if (totalSec <= 0) totalSec = 2 * 3600 + 47 * 60 + 33; // resets \'97 classic scam\
+    totalSec--;\
+    const h = Math.floor(totalSec / 3600);\
+    const m = Math.floor((totalSec % 3600) / 60);\
+    const s = totalSec % 60;\
+    const pad = n => String(n).padStart(2, '0');\
+    document.getElementById('hrs').textContent = pad(h);\
+    document.getElementById('min').textContent = pad(m);\
+    document.getElementById('sec').textContent = pad(s);\
+    document.getElementById('floatTimer').textContent = `$\{pad(h)\}:$\{pad(m)\}:$\{pad(s)\}`;\
+  \}\
+  setInterval(updateTimer, 1000);\
+\
+  // === LIVE VIEWERS (fluctuating) ===\
+  function updateViewers() \{\
+    const base = 2847;\
+    const delta = Math.floor(Math.random() * 200) - 100;\
+    document.getElementById('viewers').textContent = (base + delta).toLocaleString();\
+  \}\
+  setInterval(updateViewers, 3000);\
+\
+  // === PURCHASE POPUP TOASTS ===\
+  const popupNames = [\
+    \{ name: 'Jessica from California', item: 'MacBook Pro M3', time: '2 minutes ago', emoji: '\uc0\u55357 \u56507 ' \},\
+    \{ name: 'Tom from London', item: 'Samsung Galaxy S24 Ultra', time: 'just now', emoji: '\uc0\u55357 \u56561 ' \},\
+    \{ name: 'Maria from Sydney', item: 'Sony WH-1000XM5', time: '1 minute ago', emoji: '\uc0\u55356 \u57255 ' \},\
+    \{ name: 'Alex from Toronto', item: 'iPad Pro 12.9"', time: '30 seconds ago', emoji: '\uc0\u55357 \u56562 ' \},\
+    \{ name: 'Chen from Singapore', item: 'Apple Watch Ultra 2', time: 'just now', emoji: '\uc0\u8986 ' \},\
+    \{ name: 'Hans from Berlin', item: 'DJI Mini 4 Pro', time: '3 minutes ago', emoji: '\uc0\u55357 \u56961 ' \},\
+    \{ name: 'Priya from Mumbai', item: 'Sony A7 IV Camera', time: 'just now', emoji: '\uc0\u55357 \u56567 ' \},\
+    \{ name: 'Lucas from S\'e3o Paulo', item: 'Bose QC Ultra Earbuds', time: '1 minute ago', emoji: '\uc0\u55356 \u57269 ' \},\
+  ];\
+\
+  let popupIdx = 0;\
+  function showPopup() \{\
+    const p = popupNames[popupIdx % popupNames.length];\
+    const el = document.getElementById('popup');\
+    el.className = 'popup-toast';\
+    el.style.display = 'flex';\
+    el.innerHTML = `\
+      <div class="popup-icon">$\{p.emoji\}</div>\
+      <div class="popup-text">\
+        <strong>$\{p.name\}</strong>\
+        just purchased <b>$\{p.item\}</b>\
+        <div class="time">$\{p.time\}</div>\
+      </div>\
+    `;\
+    setTimeout(() => \{ el.classList.add('hide'); \}, 4000);\
+    setTimeout(() => \{ el.style.display = 'none'; \}, 4400);\
+    popupIdx++;\
+  \}\
+\
+  setTimeout(showPopup, 2000);\
+  setInterval(showPopup, 8000);\
+</script>\
+\
+</body>\
+</html>}
